@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero my-3 text-[#1E2A38] gap-2 lg:px-[80px] px-[20px] flex flex-col items-center text-center  justify-center">
       {/* Animated "Coming Soon" text */}
       <motion.h1
-        className="font-bold md:text-8xl text-4xl leading-[1.3] bg-gradient-to-r from-[#1E2A38] via-[#0077B6] to-[#00A896] bg-clip-text text-transparent"
+        className="font-bold md:text-8xl text-4xl leading-[1.3] bg-gradient-to-r from-[#1e3a8a] to-[#4a4b50] bg-clip-text text-transparent"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
@@ -66,7 +66,7 @@ const Hero = () => {
         <p className="mt-2">
           Follow us on:
           <a
-            href="https://linkedin.com/company/kalibreco"
+            href="https://www.linkedin.com/company/bbinsightsorg/"
             className="ml-2 text-[#0077B6] font-semibold"
             target="_blank"
             rel="noopener noreferrer"
