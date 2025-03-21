@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero text-[#1E2A38] gap-2 lg:px-[80px] px-[20px] flex flex-col items-center text-center  justify-center">
+    <section className="hero my-3 text-[#1E2A38] gap-2 lg:px-[80px] px-[20px] flex flex-col items-center text-center  justify-center">
       {/* Animated "Coming Soon" text */}
       <motion.h1
         className="font-bold md:text-8xl text-4xl leading-[1.3] bg-gradient-to-r from-[#1E2A38] via-[#0077B6] to-[#00A896] bg-clip-text text-transparent"
