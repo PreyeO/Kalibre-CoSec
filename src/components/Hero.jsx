@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero text-[#1E2A38] gap-2 px-[80px] flex flex-col items-center text-center mt-[50px] justify-center">
+    <section className="hero text-[#1E2A38] gap-2 lg:px-[80px] px-[20px] flex flex-col items-center text-center  justify-center">
       {/* Animated "Coming Soon" text */}
       <motion.h1
-        className="font-bold text-8xl leading-[1.3] bg-gradient-to-r from-[#1E2A38] via-[#0077B6] to-[#00A896] bg-clip-text text-transparent"
+        className="font-bold md:text-8xl text-4xl leading-[1.3] bg-gradient-to-r from-[#1E2A38] via-[#0077B6] to-[#00A896] bg-clip-text text-transparent"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
@@ -14,13 +14,13 @@ const Hero = () => {
         Coming Soon!
       </motion.h1>
 
-      <p className="w-[500px] text-lg font-normal text-[#1E2A38]">
+      <p className="max-w-[500px] md:text-lg text-base font-normal ">
         We're making corporate governance, ESG, and compliance simpler for
         businesses, startups, and investors.
       </p>
 
       {/* New question for smoother message flow */}
-      <p className="mt-4 text-lg font-medium text-[#1E2A38]">
+      <p className="mt-4 md:text-lg text-base font-medium max-w-[300px]  ">
         Want to be the first to know when we launch?
       </p>
 
@@ -36,14 +36,14 @@ const Hero = () => {
           type="email"
           placeholder="Enter your email"
           required
-          className="px-4 py-3 w-64 border rounded-lg focus:ring-2 focus:ring-[#0077B6] outline-none"
+          className="px-4 lg:py-3 py-2 lg:w-64  w-40 border rounded-lg focus:ring-2 focus:ring-[#0077B6] outline-none"
           whileFocus={{ scale: 1.05 }}
         />
 
         {/* Button with Hover and Click Effects */}
         <motion.button
           type="submit"
-          className="cursor-pointer px-6 py-3 bg-[#1E2A38] text-white font-semibold rounded-lg transition-all duration-300 hover:bg-[#C4A15A]"
+          className="text-sm lg:text-base cursor-pointer lg:px-6 px-3 md:px-5  py-3 bg-[#1E2A38] text-white font-semibold rounded-lg transition-all duration-300 hover:bg-[#C4A15A]"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
@@ -52,7 +52,7 @@ const Hero = () => {
       </motion.form>
 
       {/* Contact & Socials */}
-      <div className="mt-8 text-[#1E2A38] flex flex-col items-center">
+      <div className="md:mt-8 mt-5 text-[#1E2A38] flex flex-col items-center justify-center">
         <p>
           📩 For inquiries, reach us at{" "}
           <a
