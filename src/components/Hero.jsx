@@ -53,7 +53,7 @@ const Hero = () => {
       </motion.form>
 
       {/* Contact & Socials */}
-      <div className="md:mt-8 mt-5 text-[#1E2A38] flex flex-col items-center justify-center">
+      <div className="md:mt-8 mt-5 text-[#1E2A38] flex flex-col items-center justify-center max-w-[70%]">
         <p>
           📩 For inquiries, reach us at{" "}
           <a
@@ -64,14 +64,14 @@ const Hero = () => {
           </a>
         </p>
         <p className="mt-2">
-          Follow us on:
+          Join our insights community:
           <a
             href="https://www.linkedin.com/company/bbinsightsorg/"
             className="ml-2 text-[#0077B6] font-semibold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            Boardroom & Beyond Insights
           </a>
         </p>
       </div>
